@@ -4,8 +4,17 @@
              xmlns:local="clr-namespace:convert"
              x:Class="convert.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout
+        Padding="10,30,10,10">
+        <Label
+            HorizontalOptions="Center"
+            FontSize="Large" 
+            Text="Convert">
+
+        </Label>
+        <Label
+            Text="Celsius: ">
+        </Label>
+    </StackLayout>
 
 </ContentPage>
