@@ -15,6 +15,27 @@
         <Label
             Text="Celsius: ">
         </Label>
+        <Entry
+            x:Name="ConvertEntry"
+            Keyboard="Numeric"
+            Placeholder="Enter a value in celsius"
+            PlaceholderColor="Black">
+        </Entry>
+        <Button
+            x:Name="ConvertButton"
+            Text="Convert">            
+        </Button>
+        <Label
+            Text="Fahrenheit: ">
+        </Label>
+        <Entry
+            x:Name="FahrenheitEntry"
+            Keyboard="Numeric"
+            Placeholder="Enter a value in Fahrenheit"
+            PlaceholderColor="Black"
+            IsEnabled="False">
+        </Entry>
+
     </StackLayout>
 
 </ContentPage>
